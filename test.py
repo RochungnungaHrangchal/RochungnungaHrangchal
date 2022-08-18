@@ -9,11 +9,12 @@ from prophet.plot import plot_plotly, plot_components_plotly
 df = pd.read_csv('https://raw.githubusercontent.com/facebook/prophet/main/examples/example_wp_log_peyton_manning.csv')
 
 print(df.head())
-ssl
+
 m = Prophet()
 m.fit(df)
 df.plot()
 
+ hetah hian kan code changes kan reflect ang!!1
 future = m.make_future_dataframe(periods=365)
 future.tail()
 
